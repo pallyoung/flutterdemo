@@ -1,5 +1,6 @@
 import './infinite_scroll_demo.dart';
 import './basic_layout_demo.dart';
+import './display_image.dart';
 
 final PageList = [
   {
@@ -9,5 +10,9 @@ final PageList = [
   {
     'name':'Basic Layout Demo',
     'widget': new BasicLayoutDemo()
+  },
+  {
+    'name':'Display Image Demo',
+    'widget': new DisplayImageDemo()
   }
 ];
