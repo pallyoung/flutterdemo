@@ -2,6 +2,7 @@ import './infinite_scroll_demo.dart';
 import './basic_layout_demo.dart';
 import './display_image.dart';
 import './input_demo.dart';
+import './animation_demo.dart';
 
 final PageList = [
   {
@@ -19,5 +20,9 @@ final PageList = [
   {
     'name':'Input Demo',
     'widget': new InputDemo()
+  },
+  {
+    'name':'Animation Demo',
+    'widget': new AnimationDemo()
   }
 ];
